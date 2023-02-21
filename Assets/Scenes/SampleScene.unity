@@ -6208,6 +6208,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6223,6 +6224,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28038e054a545544b28334f33cb4285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 1478424574}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -10952,7 +10966,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 519420030}
         m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
         m_MethodName: ChangeColorImage
         m_Mode: 1
@@ -20485,7 +20499,6 @@ GameObject:
   - component: {fileID: 1976302198}
   - component: {fileID: 1976302197}
   - component: {fileID: 1976302200}
-  - component: {fileID: 1976302201}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -20579,19 +20592,6 @@ MonoBehaviour:
   - {fileID: 1001306096}
   RewardWarning: {fileID: 1615916850}
   changecolor: {fileID: 1034878110}
---- !u!114 &1976302201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976302196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e28038e054a545544b28334f33cb4285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  background: {fileID: 1478424574}
 --- !u!1 &1994164612
 GameObject:
   m_ObjectHideFlags: 0

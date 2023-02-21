@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class AppEntryPoint
 {
-   [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void OnLoad()
-   {
-       Debug.Log("Initialization");
+    {
+        Debug.Log("Initialization");
 
         YandexAdsManager.Initialize();
     }

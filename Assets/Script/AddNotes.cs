@@ -11,7 +11,7 @@ public class AddNotes : MonoBehaviour
     private int _index = 0;
 
     private ChangeColor _changeColor;
- 
+    
     private void Start()
     {
         _changeColor = FindObjectOfType<ChangeColor>();
